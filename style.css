@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Bricolage Grotesque', sans-serif;
+}
+.hero-section{
+    width: 100%;
+    height: auto;
+    padding: 1rem 4rem 20rem 4rem;
+    background-color: #3B4855;
+ 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.navigation-section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: start;
+    gap: 15px; 
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.navigation-section-names{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.text-area{
+    width: 842px;
+    height: 64px;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3B4855;
+    color: white;
+    border-radius: 3rem;
+    border:white solid 1px;
+}
+
+.url{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-symbol{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: end;
+gap:30px;
+}
+
+
+.image-container{
+    width: 24px;
+    height: 24px;
+    padding:1rem;
+    background-image:url(./image/beyebaba.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    
+}
+
+.Google{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    font-size: larger;
+    font-weight: 700;
+    font-family:fantasy;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    color: blue;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  
+  
+  .green {
+    color: green;
+  }
+
+
+
+
+.first-div{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.google-search{
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+    background-color: #3b3b3b;
+    border: white solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;  
+}
+
+.feeling-lucky{
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+    background-color: #3b3b3b;
+    border: white solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;  
+}
+
+.list{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
